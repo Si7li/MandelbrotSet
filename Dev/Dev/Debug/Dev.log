@@ -1,0 +1,37 @@
+﻿  Screen.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326\include\xmemory(680,47): error C2661: 'SDL_FPoint::SDL_FPoint': no overloaded function takes 2 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326\include\vector(813): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,float&>(_Alloc &,_Objty *const ,float &,float &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<SDL_FPoint>,
+              _Ty=SDL_FPoint,
+              _Objty=SDL_FPoint
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326\include\vector(824): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&,float&>(_Alloc &,_Objty *const ,float &,float &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<SDL_FPoint>,
+              _Ty=SDL_FPoint,
+              _Objty=SDL_FPoint
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326\include\vector(800): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float&,float&>(float &,float &)' being compiled
+          with
+          [
+              _Ty=SDL_FPoint
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326\include\vector(806): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float&,float&>(float &,float &)' being compiled
+          with
+          [
+              _Ty=SDL_FPoint
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326\include\vector(886): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<float&,float&>(float &,float &)' being compiled
+          with
+          [
+              _Ty=SDL_FPoint
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.32.31326\include\vector(888): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<float&,float&>(float &,float &)' being compiled
+          with
+          [
+              _Ty=SDL_FPoint
+          ]
+C:\Dev\Dev\Dev\Screen.cpp(12): message : see reference to function template instantiation 'void std::vector<SDL_FPoint,std::allocator<SDL_FPoint>>::emplace_back<float&,float&>(float &,float &)' being compiled
